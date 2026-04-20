@@ -219,3 +219,6 @@ EACH remaining PORT will be either DESIGNATED or NON-DESIGNATED
 SW1 Fa1/0 and 2/0 become NON-DESIGNATED since they have a HIGHER STP COST (38) than SW2 outbound ports (8) making SW2 Fa1/0 and 2/0 DESIGNATED
 
 SW2 remaining connection, G0/1, NON-DESIGNATED
+
+spanning-tree portfast
+Da usare sulle porte collegate ai PC per saltare i tempi di attesa di STP.
