@@ -280,3 +280,7 @@ SW# show etherchannel port-channel
 Displays information about the virtual port-channel interfaces on a SWITCH
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/6cae87f0-0226-40cc-92ba-b839c7a5ff53)
+
+Protocollo,Modalità Attiva,Modalità Passiva
+LACP,active,passive
+PAgP,desirable,auto
