@@ -37,3 +37,10 @@ WAN (Wide Area Network) = network that extends over a large geographic area.
 ![image](https://github.com/psaumur/CCNA/assets/106411237/6e3a2b3b-1590-4625-9bcf-cdaed95738d2)
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/891fcfbe-7dc5-4fb2-9b02-c6905236761e)
+
+
+### 💡 Cheat Sheet Routing Table
+1. **Longest Match**: Vince sempre la maschera più lunga (es. /28 batte /24).
+2. **Administrative Distance (AD)**: Se ho due protocolli diversi, vince l'AD più bassa.
+3. **Metric**: Se ho lo stesso protocollo, vince la Metrica più bassa.
+4. **0.0.0.0/0**: È la rotta di default, l'ultima spiaggia.
