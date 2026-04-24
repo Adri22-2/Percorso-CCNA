@@ -91,3 +91,15 @@ PAT CONFIGURATION (INTERFACE)
 COMMAND REVIEW
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/fe0655bb-4020-4ddc-bec4-b2fb198e2314)
+
+
+## 🚀 PAT (Port Address Translation) o NAT Overload
+Il PAT è la variante più comune del NAT Dinamico. Permette a più indirizzi locali di essere tradotti in un unico indirizzo pubblico utilizzando i numeri di porta sorgente.
+
+### Comandi di configurazione:
+1. **Interfaccia interna:** `ip nat inside`
+2. **Interfaccia esterna:** `ip nat outside`
+3. **ACL degli autorizzati:** `access-list 1 permit 192.168.1.0 0.0.0.255`
+4. **Comando NAT:** `ip nat inside source list 1 interface [NOME_INTERFACCIA_OUT] overload`
+
+> **Perché "Overload"?** Perché stiamo "sovraccaricando" un singolo IP pubblico con le sessioni di molti utenti diversi.
