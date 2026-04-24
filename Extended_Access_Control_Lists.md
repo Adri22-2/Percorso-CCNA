@@ -212,3 +212,15 @@ What the EXTENDED ACLs look like
 HOW TO SEE WHICH EXTENDED ACL’s ARE APPLIED TO AN INTERFACE
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/f596bca6-c06a-445e-84a3-8f8eb0c6baaf)
+
+
+
+### 🔑 Tabella Porte Comuni per ACL Estese
+*Da usare con l'operatore 'eq' (equal) dopo l'indirizzo IP*
+
+| Servizio | Protocollo | Porta | Esempio Comando |
+| :--- | :--- | :--- | :--- |
+| **SSH** | TCP | 22 | `permit tcp any any eq 22` |
+| **HTTP** | TCP | 80 | `permit tcp any any eq 80` |
+| **HTTPS** | TCP | 443 | `permit tcp any any eq 443` |
+| **DNS** | UDP | 53 | `permit udp any any eq 53` |
