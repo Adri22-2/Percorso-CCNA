@@ -74,3 +74,14 @@ SUMMARY ABOUT SSH CONFIGURATIONS
 ![image](https://github.com/psaumur/CCNA/assets/106411237/bb6d358f-e742-434b-835c-5c7cd762abdb)
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/bb2e760b-90c3-42a7-93f6-0ccc7e472d00)
+
+
+### 🔒 5 Step per SSH (Configurazione Standard)
+1. Impostare un nome dispositivo: `hostname Switch-Faenza`
+2. Impostare un dominio: `ip domain-name azienda.it`
+3. Generare le chiavi: `crypto key generate rsa` (scegli almeno 1024 bit)
+4. Creare un utente: `username admin password cisco`
+5. Attivare su VTY: 
+   line vty 0 4
+   login local
+   transport input ssh
