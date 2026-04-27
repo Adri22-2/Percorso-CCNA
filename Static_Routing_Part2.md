@@ -55,3 +55,6 @@ STATIC ROUTE CONFIGURATION with *exit-interface*
 DEFAULT ROUTE
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/a0eef93a-b40b-409b-8b51-6cdbace4ff45)
+
+# Sintassi: ip route [rete_dest] [mask] [next-hop] [distanza_amministrativa]
+ip route 0.0.0.0 0.0.0.0 172.16.1.1 210
