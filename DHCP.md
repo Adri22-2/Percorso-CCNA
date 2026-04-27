@@ -129,3 +129,7 @@ DHCP CLIENT CONFIGURATION IN IOS
 COMMANDS SUMMARY
 
 ![image](https://github.com/psaumur/CCNA/assets/106411237/41e4ab84-7d5d-42e6-93d7-4b982976dd16)
+
+
+> ⚠️ **Troubleshooting Tip:** Se un host ha un IP `169.254.x.x`, significa che è in **APIPA**. 
+> Il DHCP non è raggiungibile o il pool è esaurito. Non è un IP navigabile!
